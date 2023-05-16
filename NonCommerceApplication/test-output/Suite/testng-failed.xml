@@ -9,11 +9,14 @@
       <class name="AllTestClasses.VerifyTheApplicationFunctionality">
         <methods>
           <include name="beforeClass"/>
+          <include name="VerifyAddToCart"/>
+          <include name="verifyDatePickerInJewelryModule"/>
           <include name="verifySearchBoxWorking"/>
           <include name="afterClass"/>
           <include name="afterMethod"/>
           <include name="beforeMethod"/>
           <include name="closeBrowser"/>
+          <include name="VerifyProductRemoveInAddToCart"/>
         </methods>
       </class> <!-- AllTestClasses.VerifyTheApplicationFunctionality -->
     </classes>

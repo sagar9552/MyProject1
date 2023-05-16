@@ -1,37 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="7" total="8" passed="1" failed="0" skipped="0">
+<testng-results ignored="4" total="8" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-05-09T15:46:41 IST" name="Failed suite [Suite]" finished-at="2023-05-09T15:47:08 IST" duration-ms="27025">
+  <suite started-at="2023-05-16T17:22:47 IST" name="Suite" finished-at="2023-05-16T17:24:26 IST" duration-ms="98591">
     <groups>
     </groups>
-    <test started-at="2023-05-09T15:46:41 IST" name="Test(failed)" finished-at="2023-05-09T15:47:08 IST" duration-ms="27025">
+    <test started-at="2023-05-16T17:22:47 IST" name="Test" finished-at="2023-05-16T17:24:26 IST" duration-ms="98591">
       <class name="AllTestClasses.VerifyTheApplicationFunctionality">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:AllTestClasses.VerifyTheApplicationFunctionality@5876a9af]" started-at="2023-05-09T15:46:41 IST" name="beforeClass" finished-at="2023-05-09T15:46:46 IST" duration-ms="4779" status="PASS">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:AllTestClasses.VerifyTheApplicationFunctionality@1aa7ecca]" started-at="2023-05-16T17:22:47 IST" name="beforeClass" finished-at="2023-05-16T17:22:52 IST" duration-ms="5037" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:AllTestClasses.VerifyTheApplicationFunctionality@5876a9af]" started-at="2023-05-09T15:46:46 IST" name="beforeMethod" finished-at="2023-05-09T15:46:58 IST" duration-ms="11534" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:AllTestClasses.VerifyTheApplicationFunctionality@1aa7ecca]" started-at="2023-05-16T17:22:52 IST" name="beforeMethod" finished-at="2023-05-16T17:23:02 IST" duration-ms="10047" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="verifySearchBoxWorking()[pri:8, instance:AllTestClasses.VerifyTheApplicationFunctionality@5876a9af]" started-at="2023-05-09T15:46:58 IST" name="verifySearchBoxWorking" finished-at="2023-05-09T15:47:07 IST" duration-ms="9230" status="PASS">
+        <test-method signature="VerifyAddToCart()[pri:5, instance:AllTestClasses.VerifyTheApplicationFunctionality@1aa7ecca]" started-at="2023-05-16T17:23:02 IST" name="VerifyAddToCart" finished-at="2023-05-16T17:23:16 IST" duration-ms="13912" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifySearchBoxWorking -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:AllTestClasses.VerifyTheApplicationFunctionality@5876a9af]" started-at="2023-05-09T15:47:07 IST" name="afterMethod" finished-at="2023-05-09T15:47:08 IST" duration-ms="1173" status="PASS">
+        </test-method> <!-- VerifyAddToCart -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:AllTestClasses.VerifyTheApplicationFunctionality@1aa7ecca]" started-at="2023-05-16T17:23:16 IST" name="afterMethod" finished-at="2023-05-16T17:23:18 IST" duration-ms="2053" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:AllTestClasses.VerifyTheApplicationFunctionality@5876a9af]" started-at="2023-05-09T15:47:08 IST" name="afterClass" finished-at="2023-05-09T15:47:08 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:AllTestClasses.VerifyTheApplicationFunctionality@1aa7ecca]" started-at="2023-05-16T17:23:18 IST" name="beforeMethod" finished-at="2023-05-16T17:23:28 IST" duration-ms="9257" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="VerifyProductRemoveInAddToCart()[pri:6, instance:AllTestClasses.VerifyTheApplicationFunctionality@1aa7ecca]" started-at="2023-05-16T17:23:28 IST" name="VerifyProductRemoveInAddToCart" finished-at="2023-05-16T17:23:40 IST" duration-ms="11862" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyProductRemoveInAddToCart -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:AllTestClasses.VerifyTheApplicationFunctionality@1aa7ecca]" started-at="2023-05-16T17:23:40 IST" name="afterMethod" finished-at="2023-05-16T17:23:41 IST" duration-ms="1124" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:AllTestClasses.VerifyTheApplicationFunctionality@1aa7ecca]" started-at="2023-05-16T17:23:41 IST" name="beforeMethod" finished-at="2023-05-16T17:23:50 IST" duration-ms="9281" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyDatePickerInJewelryModule()[pri:7, instance:AllTestClasses.VerifyTheApplicationFunctionality@1aa7ecca]" started-at="2023-05-16T17:23:50 IST" name="verifyDatePickerInJewelryModule" finished-at="2023-05-16T17:24:07 IST" duration-ms="17278" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDatePickerInJewelryModule -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:AllTestClasses.VerifyTheApplicationFunctionality@1aa7ecca]" started-at="2023-05-16T17:24:07 IST" name="afterMethod" finished-at="2023-05-16T17:24:09 IST" duration-ms="1267" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:AllTestClasses.VerifyTheApplicationFunctionality@1aa7ecca]" started-at="2023-05-16T17:24:09 IST" name="beforeMethod" finished-at="2023-05-16T17:24:18 IST" duration-ms="9430" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifySearchBoxWorking()[pri:8, instance:AllTestClasses.VerifyTheApplicationFunctionality@1aa7ecca]" started-at="2023-05-16T17:24:18 IST" name="verifySearchBoxWorking" finished-at="2023-05-16T17:24:24 IST" duration-ms="6491" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchBoxWorking -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:AllTestClasses.VerifyTheApplicationFunctionality@1aa7ecca]" started-at="2023-05-16T17:24:24 IST" name="afterMethod" finished-at="2023-05-16T17:24:26 IST" duration-ms="1079" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:AllTestClasses.VerifyTheApplicationFunctionality@1aa7ecca]" started-at="2023-05-16T17:24:26 IST" name="afterClass" finished-at="2023-05-16T17:24:26 IST" duration-ms="6" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:AllTestClasses.VerifyTheApplicationFunctionality@5876a9af]" started-at="2023-05-09T15:47:08 IST" name="closeBrowser" finished-at="2023-05-09T15:47:08 IST" duration-ms="271" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:AllTestClasses.VerifyTheApplicationFunctionality@1aa7ecca]" started-at="2023-05-16T17:24:26 IST" name="closeBrowser" finished-at="2023-05-16T17:24:26 IST" duration-ms="426" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- AllTestClasses.VerifyTheApplicationFunctionality -->
-    </test> <!-- Test(failed) -->
-  </suite> <!-- Failed suite [Suite] -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

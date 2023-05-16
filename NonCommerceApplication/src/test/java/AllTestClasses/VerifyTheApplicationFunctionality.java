@@ -46,7 +46,10 @@ public class VerifyTheApplicationFunctionality
 	{
 		System.out.println("----BeforeClass--- Lauch The Browser-----");
 		
-		System.setProperty("webdriver.chrome.driver", "D:\\E-commerce PROJECT\\chromedriver.exe");		
+		//NEW "C:\chrome.EXE\1\chromedriver_win32 (4)\chromedriver.exe"
+		//OLD D:\\E-commerce PROJECT\\chromedriver.exe
+		
+		System.setProperty("webdriver.chrome.driver", "C:\\chrome.EXE\\1\\chromedriver_win32 (4)\\chromedriver.exe");		
 //		ChromeOptions option = new ChromeOptions();
 //		option.addArguments("--remote-allow-origins=*");
 //		//option.addArguments("--disable notifications");
